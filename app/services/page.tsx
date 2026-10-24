@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Wifi, Lightbulb, Shield, Thermometer, Curtains, Camera, ArrowRight } from "lucide-react";
+import { Wifi, Lightbulb, Shield, Thermometer, Blinds, Camera, ArrowRight } from "lucide-react";
 
 const services = [
   {
@@ -28,7 +28,7 @@ const services = [
     desc: "Professional CCTV installation with remote viewing so you can check on your property from anywhere.",
   },
   {
-    icon: <Curtains className="w-7 h-7" />,
+    icon: <Blinds className="w-7 h-7" />,
     title: "Smart Curtains & Blinds",
     desc: "Motorized curtains and blinds that open and close on schedule or by voice — modern comfort for your living spaces.",
   },
